@@ -1,0 +1,9 @@
+alerts:
+  - name: "Unauthorized File Access"
+    type: "regex"
+    pattern: ".*unauthorized.*"
+    context: "Log message contains unauthorized activity."
+  - name: "File Modification"
+    type: "change"
+    monitored_paths: ["/etc/hosts", "/etc/sudoers"]
+    context: "Critical configuration file has been modified."

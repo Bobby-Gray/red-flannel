@@ -1,0 +1,26 @@
+paths:
+  monitored_files:
+    - "/var/log/system.log"
+    - "/var/log/secure.log"
+    - "/var/log/install.log"
+    - "<username>/Documents/environments/red-flannel/tests/test_file_monitor.py"
+    - "/etc/security/audit.log"
+    - "/etc/hosts"
+    - "/etc/sudoers"
+    - "/etc/passwd"
+    - "/etc/shadow"
+    - "/var/log/asl.log"
+    - "/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist"
+  monitored_directories:
+    - "/Library/Logs"
+    - "<username>/Library/Logs"  # User-specific logs
+    - "<username>/Documents/screenshots"
+    - "/var/audit"
+    - "/private/var/db/uuidtext"
+    - "/usr/local/bin"
+    - "/Applications"
+    - "/System/Library/LaunchDaemons"
+    - "/Library/LaunchDaemons"
+    - "/tmp"
+    - "/var/folders"
+  endpoint_security: true
