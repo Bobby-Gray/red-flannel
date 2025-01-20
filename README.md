@@ -1,11 +1,11 @@
 # red-flannel
-Red Flannel
+Red Flannel **Placeholder**
 
-**Placeholder**
----
 FIM/security log monitoring python project to watch log files, directories, and files for changes along with Mac OS Endpoint Security events for a later use case. 
+
 ---
 Example output:
+```
 [2025-01-20 13:11:44] New file hash detected: /var/log/system.log: c9ec01c19c3b564393d85dd3ad8b8baa
 [2025-01-20 13:11:44] New file hash detected: /var/log/install.log: 1c6d4a2a5c247c20bb7a3da9eac67265
 [2025-01-20 13:11:44] New directory hash detected: /Library/Logs: cd2bce482260ea651bc5fb74bd92493c
@@ -32,3 +32,4 @@ File(s) Changed: {('Screenshot 2025-01-20 at 1.11.59\u202fPM.png', '1fc6e496128b
 Path: '/Users/username/Documents/environments/red-flannel/tests/test_file_monitor.py'
 Context: Log message contains unauthorized activity.
 Line: !!!unauthorized!!!
+```
